@@ -1,0 +1,19 @@
+/* External Style Sheet, style.css*/
+#first{ 
+    background:pink
+}
+#second{
+    background:blue
+}
+#third{
+    background:red
+}
+ol{ 
+    list-style: upper-roman
+}
+ol ol{ 
+    list-style: upper-alpha
+}
+ol ol ol{ 
+    list-style: decimal
+ }

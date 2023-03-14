@@ -1,0 +1,13 @@
+table { 
+    border-collapse: collapse;
+    background-color: rgb(101, 120, 92);
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+table, td,th {
+    border: thin solid rgb(37, 55, 37);
+}
+tr.evenrow {
+    background-color: rgb(195, 235, 176);
+}

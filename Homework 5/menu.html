@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<!--
+    This is a replica of one of my favorite restaurants' menu. The menu title is a link to Harumama's website, where I got the menu from.
+-->
+
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Homework 5</title>
+    <link rel="stylesheet" href="menuStyle.css" type="text/css"/>
+    </head>
+    <script text="text/javascript" src="menuScript.js">
+    </script>
+    <body>
+        <form action="" method="GET">
+            <div id="header">
+                <a href="https://www.harumamasd.com/"><img id = "harumama" src="Harumama.PNG" alt="menu title"></a>
+            </div>
+            <hr/>
+            <table>
+                <tr id = "divider">
+                    <td>
+                        <ul>
+                            <li>
+                                <h2>NON-ALCOHOLIC</h2>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "naBev" value = "2.75"/> <strong>FOUNTAIN DRINK 2.75</strong>
+                                </label>
+                                <p>
+                                    pepsi, diet pepsi, sierra mist, dr. pepper, iced tea, lemonade
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "naBev" value = "2.75" /> <strong>MIXED FOUNTAIN DRINK 2.75</strong>
+                                </label>
+                                <p>
+                                    shirley temple, cherry pepsi, arnold palmer, hibiscus lemonade
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "naBev" value = "3.5" /> <strong>HOT/ICED GREEN TEA 3.5</strong> </br></br>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "naBev" value = "3" /> <strong>RAMUNE 3</strong>
+                                </label>
+                                <p>
+                                    marble soft drink // ask server for flavors
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "naBev" value = "3.95" /> <strong>REFRESHER 3.95</strong>
+                                </label>
+                                <p>
+                                    craft soft drink // peach, hibiscus, or passionfruit
+                                </p>
+                            </li>
+                            <li>
+                                <h2>BEER & HARD KOMBUCHA</h2>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "beerAndHK" value = "6.5" /> <strong>STONE DELICIOUS IPA 6.5</strong>
+                                </label>
+                                <p>
+                                    7.7% ABV, 12oz BOTTLE
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "beerAndHK" value = "5" /> <strong>SAPPORO 5</strong>
+                                </label>
+                                <p>
+                                    4.9% ABV, 20oz BOTTLE
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "beerAndHK" value = "5.5" /> <strong>BOOCHCRAFT HARD KOMBUCHA 5.5</strong>
+                                </label>
+                                <p>
+                                    7% ABV, 12oz CAN // ask server for flavors
+                                </p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <h2>SAKE</h2>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "sake" value = "12"/> <strong>CLASSIC HOT SAKE 12</strong>
+                                </label>
+                                <p>
+                                    +1 SMV, 15% ABV, 300 ML BOTTLE // traditional junmai ginjo sake
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "sake" value = "19" /> <strong>KIKUSUI JUNMAI GINJO 19</strong>
+                                </label>
+                                <p>
+                                    +1 SMV, 15% ABV, 300 ML BOTTLE // notes of mandarin orange
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "sake" value = "11" /> <strong>SHO CHIKU BAI NIGORI 11</strong>
+                                </label>
+                                <p>
+                                    -20 SMV, 15% ABV, 375 ML BOTTLE // notes of sweet cream and melon
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "sake" value = "13" /> <strong>HANA WHITE PEACH 13</strong>
+                                </label>
+                                <p>
+                                    8% ABV, 375 ML BOTTLE // refreshing peach flavor
+                                </p>
+                            </li>
+                            <li>
+                                <table id = "sakeBomb">
+                                    <tr>
+                                        <td rowspan = 2>
+                                            <img src="sakeBomb.png" alt="title" width="200" >
+                                        </td>
+                                        <td id = "cursive">
+                                            ichi, ni, san, sake bomb!
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <p>
+                                                buy a 20oz sapporo, get 2 hot sake </br> shots for $2!
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                            <li>
+                                <h2>HARUMAMA HOUSE WINES</h2>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "houseWine" value = "6.5" /> <strong>CABERNET SAUVIGNON 6.5</strong>  </br></br>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "houseWine" value = "7.5" /> <strong>PINOT NOIR 7.5</strong>  </br></br>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "houseWine" value = "6.5" /> <strong>CHARDONNAY 6.5</strong>  </br></br>
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "houseWine" value = "6.5" /> <strong>ROSE 6.5</strong>
+                                </label>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                <h2>RAMEN</h2>
+                                <p>
+                                    all ramen bowls are topped with sesame seeds, scallions, & leeks / substitutions & add-ons will result in an extra charge
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "11.95" /> <strong>GARDEN PARTY 11.95</strong>
+                                </label>
+                                <p>
+                                    veggie broth + vegan creamy coconut sauce // kale noodles / topped with steamed tofu, black garlic oil, broccoli, corn
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "11.95" /> <strong>HARU 11.95</strong>
+                                </label>
+                                <p>
+                                    tonkotsu broth + classic tonkotsu sauce // topped with chicken chashu, steamed tofu, bamboo shoots, kale, black garlic oil
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "12.95" /> <strong>FAT DUCK 12.95</strong>
+                                </label>
+                                <p>
+                                    tonkotsu broth + creamy miso sauce // topped with duck chashu, bok choy, fried garlic
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "11.95" /> <strong>HOLY COW 11.95</strong>
+                                </label>
+                                <p>
+                                    veggie broth + savory veal reduction sauce // topped with pulled beef, carrots, cabbage, broccoli, bok choy
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "11.95" /> <strong>FLYING PIG 11.95</strong>
+                                </label>
+                                <p>
+                                    tonkotsu broth + shoyu sesame sauce // topped with pork belly, brussel sprouts, fried garlic 
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "13.95" /> <strong>OH CRAB! 13.95</strong>
+                                </label>
+                                <p>
+                                    crab + lobster broth + spicy seafood sauce // topped with crab, lobster, 1/2 ramen egg, carrots cabbage
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "12.95" /> <strong>ME SO HOT! 12.95</strong>
+                                </label>
+                                <p>
+                                    tonkotsu broth + spicy miso peanut sauce // topped with ground pork, 1/2 ramen egg, bean sprouts, brussel sprouts, peanuts
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "ramen" value = "12.95" /> <strong>KIMCHI 12.95</strong>
+                                </label>
+                                <p>
+                                    veggie broth + spicy chicken reduction sauce // topped with pork belly, steamed tofu, 1/2 ramen egg, bean sprouts, sauteed kimchi
+                                </p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <h2>MAMA'S NOODLES</h2>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "noodles" value = "12.95" /> <strong>BULGOGI BEEF UDON 12.95</strong>
+                                </label>
+                                <p>
+                                    beef broth, bulgogi beef, caramelized onion / topped with green onion, sesame seeds
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "noodles" value = "11.95" /> <strong>VEGETABLE PAN-FRIED NOODLES 11.95</strong>
+                                </label>
+                                <p>
+                                    broccoli, carrot, fried-garlic, pickled cucumber, scallions, zucchini / topped with black sesame seeds, scallions
+                                </p>
+                            </li>
+                            <li>
+                                <label>
+                                    <input class = "checkbox" type = "checkbox"  name = "noodles" value = "10.95" /> <strong>YAKISOBA 10.95</strong>
+                                </label>
+                                <p>
+                                    yakisoba noodles, broccoli, tomatoes, zucchini / topped with scallions, sesame seeds 
+                                </p>
+                                <hr/>
+                            </li>
+                            <li>
+                                <h2>CHARACTER BUNS</h2>
+                                <p>
+                                    2 PCS // hand-decorated buns made by the Harumama Bun Kitchen / no ingredient removals or substitutions / no mix and match
+                                </p>
+                            </li>
+                            <li>
+                                <table>
+                                    <tr>
+                                        <th colspan = 2>
+                                            <h3 id = "cursive">~savory buns~</h3>
+                                        </th>
+                                        <th colspan = 2>
+                                            <h3 id = "cursive">~sweet buns~</h3>
+                                        </th>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="pandaBear.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>PANDA 7.95</strong>
+                                            </label>
+                                            <p>
+                                                spicy chicken, broccoli, onion
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <img src="koalaBear.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>KOALA 7.95</strong>
+                                            </label>
+                                            <p>
+                                                strawberry n' cream
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="cow.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>COW 7.95</strong>
+                                            </label>
+                                            <p>
+                                                ground BBQ beef, carrot, shiitake
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <img src="polarBear.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>POLAR BEAR 7.95</strong>
+                                            </label>
+                                            <p>
+                                                sweet custard
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="pig.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>PIG 7.95</strong>
+                                            </label>
+                                            <p>
+                                                pulled pork, onion
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <img src="bunny.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>BUNNY 7.95</strong>
+                                            </label>
+                                            <p>
+                                                nutella
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <img src="chicken.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>CHICKEN 7.95</strong>
+                                            </label>
+                                            <p>
+                                                chicken, mozzarella, onion
+                                            </p>
+                                        </td>
+                                        <td>
+                                            <img src="puppy.png" alt="title" width="100" >
+                                        </td>
+                                        <td>
+                                            <label>
+                                                <input class = "checkbox" type = "checkbox"  name = "buns" value = "7.95" /> <strong>PUPPY 7.95</strong>
+                                            </label>
+                                            <p>
+                                                churro custard
+                                            </p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <hr/>
+            <input id = "getTotal" type = "submit"  value = "SUBMIT" />
+            <fieldset  id = "payment">
+                <legend><strong>PAYMENT</strong></legend>
+                <div>
+                    <table>
+                        <tr>
+                            <td>
+                                <h2>Your total is: </h2>
+                            </td>
+                            <td>
+                                <h2 id="totalCost"> $0.00 </h2>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </fieldset>
+            <br/>
+        </form>
+    </body>
+</html>

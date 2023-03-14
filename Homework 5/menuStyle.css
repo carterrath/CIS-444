@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Arial', sans-serif;
+    
+}
+
+#harumama {
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    border: thick solid rgb(244, 206, 36);
+    font-family: 'Arial', sans-serif;
+}
+
+hr {
+    height: 1px;
+    background-color: black;
+    border-color: black;
+    border-radius: 5px;
+}
+
+ul {
+    list-style: none;
+}
+
+#sakeBomb {
+    border: solid rgb(244, 206, 36);
+}
+
+table {
+    border-collapse: collapse;
+}
+  
+#divider {
+    border-bottom: 1pt solid black;
+}
+
+p {
+    font-family: 'Andale Mono';
+}
+
+th {
+    text-align: center;
+}
+
+h3 {
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+#cursive {
+    font-family: 'Snell Roundhand';
+    font-size: 2em;
+}
+
+#payment {
+    width: 50%;
+    margin: auto;
+}
+
+#totalCost {
+    display: none;
+}
+
+#getTotal {
+    background-color:rgb(244, 206, 36);
+    font-weight: bold;
+    font-size: 2em;
+    text-align: center;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
